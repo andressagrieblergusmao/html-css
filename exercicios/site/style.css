@@ -171,27 +171,23 @@ picture {
     height: 90%;
 }
 
-h4 {
+
+
+aside {
+	margin: auto;
+	background-color: var(--color-h1);
+	border-radius: 10px;
+	list-style-type: disc;
+}
+
+aside> h4 {
 	font-family: sans-serif;
 	font-size: 1.5rem;
 	background-color: var(--color-fundo);
-	color: var(--color-preto);
+	color: black;
 	border-radius: 10px 10px 0px 0px;
-	margin:0px 20px;
+	margin:0px;
 	padding: 10px;
-}
-
-.listas {
-	margin: 0px 20px;
-	background-color: var(--color-video);
-	border-radius: 0px 0px 10px 10px;
-	padding: 10px;
-	list-style-type: disc;
-	list-style-position: inside;
-}
-
-.listas p{
-	padding-bottom: 30px;
 }
 
 .colunas {
