@@ -34,7 +34,7 @@ box-sizing: border-box;
         padding: 10px;
     }
 
-    main div{
+    main section{
         font-family: 'Cormorant Garamond', serif;
         font-size: 20px;
         font-style: italic;
@@ -45,23 +45,31 @@ box-sizing: border-box;
         padding: 10px;
     }
 
-    .flor{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 20px;
-        font-style: italic;
-        font-weight: bolder;
-        color: #ffffff;
-        background-color: #1e0f0f84;
-        text-align: left;
-        margin: 10px;
+    .poesia{
         padding: 10px;
+        max-width: 350px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 2;
+    }
+
+    .flor{
+        background-image: url("imagens/background001.jpg");
+         background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 10px;
+        width: 100%;
     }
 
     .flor p{
-        background-image:);
+        background-color: rgba(0, 0, 0, 0.7);
         color: white;
-        padding: 20px;
-        max-width: 400px;
+        padding: 0px;
+        max-width: 350px;
         font-family: 'Cormorant Garamond', serif;
         font-size: 24px;
         font-style: italic;
