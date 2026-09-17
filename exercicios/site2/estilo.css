@@ -2,11 +2,69 @@
 margin: 0; 
 padding: 0;
 box-sizing: border-box;
+    }    
+    header{
+        display:block;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        background-color: #020202;
     }
 
-    div{
+    header h1{
+        font-family: 'Passion One', serif;
+        font-size: 70px;
+        gap: 10px;
+        color: #ffffff;
+    }
+
+    header h2 a{
+        font-family: 'Noto Serif Display', serif;
+        font-size: 24px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        justify-content: right;
+        margin: auto;
+        padding: 10px;
+    }
+
+    main div{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bolder;
+        color: #000000;
+        text-align: left;
         margin: 10px;
         padding: 10px;
-        border: 1px solid black;
     }
-    
+
+    .flor{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bolder;
+        color: #ffffff;
+        background-color: #1e0f0f84;
+        text-align: left;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .flor p{
+        background-image:);
+        color: white;
+        padding: 20px;
+        max-width: 400px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 2;
+    }
