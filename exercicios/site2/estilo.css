@@ -76,3 +76,41 @@ box-sizing: border-box;
         font-weight: bold;
         line-height: 2;
     }
+
+    .livro{
+        background-image: url("imagens/background002.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .livro p{
+        background-color: rgba(0, 0, 0, 0.7);
+        color: rgb(248, 245, 245);
+        padding: 0px;
+        max-width: 350px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 2;
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        background-color: #020202;
+        color: #ffffff;
+    }
+
+    .footer p{
+        font-family: 'Noto Serif Display', serif;
+        font-size: 10px;
+        color: #ffffff;
+        text-decoration: none;
+    }
